@@ -1,4 +1,6 @@
-# Angular2Webpack
+![smda](http://smda.ecnu.edu.cn/images/logo.jpg)
+[smda]:http://smda.ecnu.edu.cn/ "smda大赛"
+## SMDA大赛"云上玩乐"·创意方案团队 参赛项目网站前端
 A front-end framwork built with Angular2 and Webpack!
 
 ### Usage: 
