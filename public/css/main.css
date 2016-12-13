@@ -18,7 +18,9 @@
 		vertical-align: baseline;
 	}
 	#mynav {
-		display: inline;
+		margin: 2.5% 0 0 0;
+		display: inline-block;
+		width: 60%;
 	}
 
 	nav ul {
@@ -2341,16 +2343,16 @@
 				width: 100%;
 			}
 
-		.image.playonthecloud {
-			display: inline-block;
-			/*margin: 0 0 2em 5em*/
-			margin: 0 0 5% 15%;
-			width: 24%;
+		.playonthecloud {
+			display: block;
+			width: 100%;
 		}
 
-		.image.playonthecloud img {
-			display: inline;
-			width: 90%;
+		.playonthecloud img {
+			margin: 0 0 5% 12%;
+			float: left;
+			display: inline-block;
+			width: 25%;
 		}
 
 /* List */
