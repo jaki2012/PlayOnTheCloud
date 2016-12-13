@@ -17,6 +17,16 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	#mynav {
+		display: inline;
+	}
+
+	nav ul {
+		display: table-row;
+	}
+	nav ul li{
+		display: table-cell;
+	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -2331,6 +2341,18 @@
 				width: 100%;
 			}
 
+		.image.playonthecloud {
+			display: inline-block;
+			/*margin: 0 0 2em 5em*/
+			margin: 0 0 5% 15%;
+			width: 24%;
+		}
+
+		.image.playonthecloud img {
+			display: inline;
+			width: 90%;
+		}
+
 /* List */
 
 	ol {
@@ -3112,7 +3134,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+				padding: 3em 0 6em 0 ;
 			}
 
 	}
