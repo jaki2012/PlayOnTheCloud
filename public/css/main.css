@@ -17,17 +17,18 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+
 	#mynav {
 		min-width: 262px;	
 		margin: 0 0 1.5% 0%;
 		display: inline-block;
-		width: 45%;
 		text-decoration: none;
 	}
 
 	nav ul {
 		display: table-row;
 	}
+
     nav ul li {
 		display: inline-block;
 	    text-align: center;
@@ -2367,11 +2368,12 @@
 
 		.playonthecloud {
 			display: block;
-			width: 100%;
+			margin: 0;
+			width: 80%;
 		}
 
 		.playonthecloud img {
-			margin: 0 16% 0% 6%;
+			margin: 0 16% 0% 0%;
 			display: inline-block;
 			width: 25%;
 			min-width: 232px;
