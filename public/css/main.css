@@ -19,20 +19,23 @@
 	}
 
 	#mynav {
-		min-width: 262px;	
-		margin: 0 0 1.5% 0%;
+		overflow: visible;
+		margin: 1.7% 8% 0 0%;
+		min-width: 300px;
 		display: inline-block;
 		text-decoration: none;
 	}
 
 	nav ul {
+		min-width: 270px;
 		display: table-row;
 	}
 
     nav ul li {
 		display: inline-block;
 	    text-align: center;
-	    padding-right: 0.5%;
+	    padding-right: 1em;
+		padding-left: 0;
     }
 
 	nav ul li:last-child {
@@ -40,6 +43,7 @@
 	}
 
     nav ul li:first-child {
+		padding-left: 0.6em;
 	    text-align: left;
     }
 
@@ -2368,15 +2372,18 @@
 
 		.playonthecloud {
 			display: block;
-			margin: 0;
-			width: 80%;
+			margin: 0 auto;
+			width: 100%;
+			text-align:right;
+			overflow: hidden;
 		}
 
 		.playonthecloud img {
-			margin: 0 16% 0% 0%;
+			margin: 0 0% 0% 9%;
 			display: inline-block;
-			width: 25%;
+			width: 22%;
 			min-width: 232px;
+			float: left;
 		}
 
 /* List */
