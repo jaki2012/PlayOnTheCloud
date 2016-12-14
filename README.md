@@ -3,22 +3,5 @@
 smda大赛官方网址：http://smda.ecnu.edu.cn
 参赛团队来自同济大学软件工程实验室：http://lab-sse.cn
 
-### Usage: 
-Before you do anything, execute the command below:
-```
-  npm install
-```
-
-Then:
-* development mode
-```
-  npm start
-```
-* production mode 
-```
-  npm run build
-  cd dist 
-  http-server (you have to do npm install http-server -g beforehand)
-```
-
-* test mode 
+使用方法可参照我在github上的angular2+webpack框架
+https://github.com/jaki2012/Angular2Webpack
