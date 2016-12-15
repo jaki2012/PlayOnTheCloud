@@ -20,7 +20,7 @@
 
 	#mynav {
 		overflow: visible;
-		margin: 1.7% 8% 0 0%;
+		margin: 1.9% 8% 0 0%;
 		min-width: 300px;
 		display: inline-block;
 		text-decoration: none;
@@ -48,13 +48,18 @@
     }
 
 	nav ul li a{
-		font: 1em/20px "Helvetica Neue";
+		font: 1em/20px "Hanyiqihei";
 		text-decoration: none;
 		font-weight: 300;
 	}
 
 	nav ul li a::hover{
 		font-weight: bold;
+	}
+
+	nav ul li a span {
+		padding-bottom: 2px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2386,6 +2391,25 @@
 			max-width: 420px;
 			float: left;
 		}
+/* Font */
+
+    @font-face {
+		font-family: 'FZLTXH';
+		src:
+		    url('../fonts/FZLTXH_GBK.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Hanyiqihei';
+		src:
+		    url('../fonts/HYQiHei_35S5.ttf') format('truetype'),
+		    url('../fonts/HYQiHeiX1_35W.otf') format('opentype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
 
 /* List */
 
