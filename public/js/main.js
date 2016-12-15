@@ -41,7 +41,11 @@
 
 		// Scrolly.
 			$('.scrolly').scrolly();
-
+		// Navgation optimize
+		    $("nav ul li a span").click(function(){
+				$('.active').removeClass("active");
+				$(this).addClass("active");
+            })
 	});
 
 })(jQuery);

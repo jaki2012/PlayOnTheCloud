@@ -51,13 +51,20 @@
 		font: 1em/20px "Hanyiqihei";
 		text-decoration: none;
 		font-weight: 300;
+		color: rgba(255, 255, 255, 0.9);
 	}
 
 	nav ul li a::hover{
 		font-weight: bold;
+		/*color: rgba(255, 255, 255, 0.9);*/
 	}
 
-	nav ul li a span {
+	nav ul li a span{
+		padding-bottom: 2px;
+		border-bottom: 0px;
+	}
+
+	nav ul li a span.active {
 		padding-bottom: 2px;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 	}
