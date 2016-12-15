@@ -34,7 +34,7 @@
     nav ul li {
 		display: inline-block;
 	    text-align: center;
-	    padding-right: 1em;
+	    padding-right: 0.9em;
 		padding-left: 0;
     }
 
@@ -2383,6 +2383,7 @@
 			display: inline-block;
 			width: 22%;
 			min-width: 232px;
+			max-width: 420px;
 			float: left;
 		}
 
