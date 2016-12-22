@@ -22,32 +22,21 @@
 	<!-- Header -->
 	<section id="header">
 		<div class="inner">
-			<!--<span class="image playonthecloud"><img src="../public/images/playonthecloud.png" alt="" />
-			<nav id="mynav">
-				<ul>
-					<li class="jaki"><a href="index.html">Why?</a></li>
-					<li><a href="about.html">About</a></li>
-					<li class="jaki"><a href="offline.html">Offline</a></li>
-					<li class="jaki"><a href="redemption.html">Redemption</a></li>
-					<li class="jaki"><a href="video.html">Videos/clips</a></li>
-					<li class="jaki"><a href="3Dquiz.html">Quiz</a></li>
-				</ul>
-			</nav>
-			</span>-->
-		   <div class="playonthecloud">
-			<img src="../public/images/playonthecloud.png" alt="" />
-			<nav id="mynav">
-				<ul>
-					<li class="jaki"><a href="#"><span class="active">首页</span></a></li>
-					<li class="jaki"><a href="#"><span>天气信息</span></a></li>
-					<li class="jaki"><a href="#"><span>景点推荐</span></a></li>
-					<li class="jaki"><a href="#"><span>我的账户</span></a></li>
-				</ul>
-			</nav>
-		   </div>
+			<div class="playonthecloud">
+				<img src="../public/images/playonthecloud.png" alt="" />
+				<nav class="navbar">
+					<ul>
+						<li class="jaki"><a href="#"><span class="active">首页</span></a></li>
+						<li class="jaki"><a href="#"><span>天气信息</span></a></li>
+						<li class="jaki"><a href="#"><span>景点推荐</span></a></li>
+						<li class="jaki"><a href="#"><span>我的账户</span></a></li>
+					</ul>
+				</nav>
+			</div>
 			<span class="icon major fa-cloud"></span>
-			<h1>Hi, I'm <strong>Photon</strong>, another fine<br /> little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-			<p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br /> lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+			<h1>Wanna&nbsp;<strong>meet </strong>&nbsp;you, in the most <br /> beautiful place and
+				<a href="http://html5up.net"></a>weather</h1>
+			<p class="intro">“云上玩乐”创意方案为您带来前所未有的出行规划体验<br /> 如果您已准备好 请进入探索之旅</p>
 			<ul class="actions">
 				<li><a href="#one" class="button scrolly">Discover</a></li>
 			</ul>
@@ -58,12 +47,11 @@
 	<section id="one" class="main style1">
 		<div class="container">
 			<div class="row 150%">
-				<div class="6u 12u$(medium)">
+				<div class="6u 12u$(medium) designpurpose">
 					<header class="major">
-						<h2>Lorem ipsum dolor adipiscing<br /> amet dolor consequat</h2>
+						<h2>关于云上玩乐的设计初衷<br /></h2>
 					</header>
-					<p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat
-						aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+					<p>“云上玩乐”·创意方案服务于旅游领域，旨在结合气象大数据分析各大旅游景点可玩性与天气之间的关系，为每个景点构造预测模型。通过新的气象预报数据预测短期内或特定气象条件下某景点的可游玩性（即人们在该气象条件下出行该景点的大众趋向情感体验），为倾心旅行的旅客推荐出行方案。我们团队成员坚定地认为，每一个景点都有属于它最美的天气，等待您去发现，等待您去遇见。</p>
 				</div>
 				<div class="6u$ 12u$(medium) important(medium)">
 					<span class="image fit"><img src="../public/images/pic01.jpg" alt="" /></span>
@@ -76,7 +64,34 @@
 	<section id="two" class="main style2">
 		<div class="container">
 			<div class="row 150%">
-				<div class="6u 12u$(medium)">
+				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
+					<span class="image fit"><img src="../public/images/intro1.png" alt="" /></span>
+					<h3>数据</h3>
+					<ul>
+						<li>感知气象大数据</li>
+						<li>数据规模多达数千万条</li>
+						<li>网络点评爬虫技术与自然语义分析</li>
+					</ul>
+				</div>
+				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
+					<span class="image fit"><img src="../public/images/intro2.png" alt="" /></span>
+					<h3>天气</h3>
+					<ul>
+						<li>精确采集实时天气数据</li>
+						<li>基于气象条件智能分析</li>
+						<li>气象数据与机器学习相结合</li>
+					</ul>
+				</div>
+				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
+					<span class="image fit"><img src="../public/images/intro3.png" alt="" /></span>
+					<h3>景区</h3>
+					<ul>
+						<li>精确判断景区合适游玩天气</li>
+						<li>智能推荐您假期的出行地</li>
+						<li>在最美的天气最美的地方与TA邂逅</li>
+					</ul>
+				</div>
+				<!--<div class="6u 12u$(medium)">
 					<ul class="major-icons">
 						<li><span class="icon style1 major fa-code"></span></li>
 						<li><span class="icon style2 major fa-bolt"></span></li>
@@ -98,7 +113,7 @@
 						adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
 					<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
 						nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</section>

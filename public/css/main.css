@@ -18,7 +18,7 @@
 		vertical-align: baseline;
 	}
 
-	#mynav {
+	.navbar {
 		overflow: visible;
 		margin: 1.9% 8% 0 0%;
 		min-width: 300px;
@@ -2381,6 +2381,26 @@
 			.image.fit img {
 				width: 100%;
 			}
+
+		.intro {
+			font-family: Hanyiqihei;
+		}
+
+		.senic {
+			font-family: Hanyiqihei;
+		}
+
+		.senic li {
+			margin-bottom: 1em;
+		}
+
+		.designpurpose {
+			font-family: Hanyiqihei;
+		}
+
+		.designpurpose p {
+			font-size: 0.9em;
+		}
 
 		.playonthecloud {
 			display: block;
