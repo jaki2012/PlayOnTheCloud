@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   recommendInfos: RecommendInfo[];
 
   constructor(private http:Http, private appService: AppService) { 
-    this.http.get('http://localhost:8088/recommendinfo').subscribe(res=> this.recommendInfos=res.json());
+    this.http.get('http://115.159.126.118:8066/recommendinfo').subscribe(res=> this.recommendInfos=res.json());
   }
 
   getRecommendInfos(): void { 

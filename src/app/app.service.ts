@@ -8,7 +8,7 @@ import { RecommendInfo } from './recommendinfo';
 @Injectable()
 export class AppService {
   private headers = new Headers({'Content-Type': 'application/json'});
-  private recommendUrl = 'http://localhost:8088/recommendinfo'; //URL to web api
+  private recommendUrl = 'http://115.159.126.118:8066/recommendinfo'; //URL to web api
   public recommendInfos: RecommendInfo[];
  
   constructor(private http: Http) { 
