@@ -12,6 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="/static/css/main.css" />
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="/static/css/mdb.css">
 	<!--<link href="../public/images/favicon.ico" type="image/x-icon" rel=icon>-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -34,7 +37,7 @@
 				</nav>
 			</div>
 			<span class="icon major fa-cloud"></span>
-			<h1>Wanna&nbsp;<strong>meet </strong>&nbsp;you, in the most <br /> beautiful place and
+			<h1>Wanna&nbsp;<strong>meet</strong>&nbsp;you, in the most <br /> beautiful place and
 				<a href="http://html5up.net"></a>weather</h1>
 			<p class="intro">“云上玩乐”创意方案为您带来前所未有的出行规划体验<br /> 如果您已准备好 请进入探索之旅</p>
 			<ul class="actions">
@@ -63,57 +66,100 @@
 	<!-- Two -->
 	<section id="two" class="main style2">
 		<div class="container">
-			<div class="row 150%">
-				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
-					<span class="image fit"><img src="../public/images/intro1.png" alt="" /></span>
-					<h3>数据</h3>
-					<ul>
-						<li>感知气象大数据</li>
-						<li>数据规模多达数千万条</li>
-						<li>网络点评爬虫技术与自然语义分析</li>
-					</ul>
+			<div class="row">
+				<div class="col-md-4">
+
+				    <!--Card-->
+				    <div class="card card-cascade wider">
+
+				        <!--Card image-->
+				        <div class="view overlay hm-white-slight">
+				            <img src="../public/images/intro1.png" class="img-fluid">
+				            <a href="#!">
+				                <div class="mask"></div>
+				            </a>
+				        </div>
+				        <!--/Card image-->
+
+				        <!--Card content-->
+				        <div class="card-block text-xs-center">
+				            <!--Title-->
+				            <h4 class="card-title"><i class="fa fa-database" style="color: salmon"></i> 数据</h4>
+				            <h5>Data set</h5>
+										<hr>
+				            <p class="card-text">
+											感知气象大数据<br>海量数据支持<br>网络点评爬虫技术与自然语义分析
+										</p>
+
+				        </div>
+				        <!--/.Card content-->
+
+				    </div>
+				    <!--/.Card-->
+
 				</div>
-				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
-					<span class="image fit"><img src="../public/images/intro2.png" alt="" /></span>
-					<h3>天气</h3>
-					<ul>
-						<li>精确采集实时天气数据</li>
-						<li>基于气象条件智能分析</li>
-						<li>气象数据与机器学习相结合</li>
-					</ul>
+				<div class="col-md-4">
+
+				    <!--Card-->
+				    <div class="card card-cascade wider">
+
+				        <!--Card image-->
+				        <div class="view overlay hm-white-slight">
+				            <img src="../public/images/intro2.png" class="img-fluid">
+				            <a href="#!">
+				                <div class="mask"></div>
+				            </a>
+				        </div>
+				        <!--/Card image-->
+
+								<!--Card content-->
+				        <div class="card-block text-xs-center">
+				            <!--Title-->
+				            <h4 class="card-title"><i class="fa fa-mixcloud" style="color: blue"></i> 天气</h4>
+				            <h5>Weather</h5>
+										<hr>
+				            <p class="card-text">
+											精确采集实时天气数据<br>基于气象条件智能分析<br>气象数据与机器学习相结合
+										</p>
+
+				        </div>
+				        <!--/.Card content-->
+
+				    </div>
+				    <!--/.Card-->
+
 				</div>
-				<div class="4u 12u$(medium) senic" *ngFor="let recommendInfo of recommendInfos">
-					<span class="image fit"><img src="../public/images/intro3.png" alt="" /></span>
-					<h3>景区</h3>
-					<ul>
-						<li>精确判断景区合适游玩天气</li>
-						<li>智能推荐您假期的出行地</li>
-						<li>在最美的天气最美的地方与TA邂逅</li>
-					</ul>
+				<div class="col-md-4">
+
+				    <!--Card-->
+				    <div class="card card-cascade wider">
+
+				        <!--Card image-->
+				        <div class="view overlay hm-white-slight">
+				            <img src="../public/images/intro3.png" class="img-fluid">
+				            <a href="#!">
+				                <div class="mask"></div>
+				            </a>
+				        </div>
+				        <!--/Card image-->
+
+								<!--Card content-->
+				        <div class="card-block text-xs-center">
+				            <!--Title-->
+				            <h4 class="card-title"><i class="fa fa-tree" style="color: green"></i> 景区</h4>
+				            <h5>Scenic spots</h5>
+										<hr>
+				            <p class="card-text">
+											精确判断景区合适游玩天气<br>智能推荐您假期的出行地<br>在最美的天气最美的地方与TA邂逅
+										</p>
+
+				        </div>
+				        <!--/.Card content-->
+
+				    </div>
+				    <!--/.Card-->
+
 				</div>
-				<!--<div class="6u 12u$(medium)">
-					<ul class="major-icons">
-						<li><span class="icon style1 major fa-code"></span></li>
-						<li><span class="icon style2 major fa-bolt"></span></li>
-						<li><span class="icon style3 major fa-camera-retro"></span></li>
-						<li><span class="icon style4 major fa-cog"></span></li>
-						<li><span class="icon style5 major fa-desktop"></span></li>
-						<li><span class="icon style6 major fa-calendar"></span></li>
-					</ul>
-				</div>
-				<div class="6u$ 12u$(medium)">
-					<header class="major">
-						<h2>Lorem ipsum dolor adipiscing<br /> amet dolor consequat</h2>
-					</header>
-					<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-						nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-					<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus
-						accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam
-						lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing
-						adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-					<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus
-						nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-				</div>-->
 			</div>
 		</div>
 	</section>
@@ -125,12 +171,12 @@
 	<section id="four" class="main style2 special">
 		<div class="container">
 			<header class="major">
-				<h2>Ipsum feugiat consequat?</h2>
+				<h2>还在犹豫吗?</h2>
 			</header>
-			<p>Sed lacus nascetur ac ante amet sapien.</p>
+			<p>立即注册成为我们的会员,体验不一样的用心推荐</p>
 			<ul class="actions uniform">
-				<li><a href="#" class="button special">Sign Up</a></li>
-				<li><a href="#" class="button">Learn More</a></li>
+				<li><a href="#" class="button special">注册</a></li>
+				<li><a href="#" class="button">了解更多</a></li>
 			</ul>
 		</div>
 	</section>
@@ -146,7 +192,7 @@
 		</ul>
 		<ul class="copyright">
 			<li>&copy; 云上玩乐</li>
-			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>Design: <a href="">Cloud Team</a></li>
 		</ul>
 	</section>
 
@@ -157,6 +203,10 @@
 	<script src="/static/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="/static/js/main.js"></script>
+	<script src="/static/js/mdb.min.js"></script>
+	<script src="/static/js/bootstrap.min.js"></script>
+	<script src="/static/js/tether.min.js"></script>
+
 </body>
 
 </html>
