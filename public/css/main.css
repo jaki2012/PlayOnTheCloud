@@ -2390,8 +2390,32 @@
 			font-family: Hanyiqihei;
 		}
 
+		.senic .image {
+			margin: 0;
+		}
+
+		.senicbox {
+			background-color: white;
+			padding-top: 1.5em;
+			padding-left: 1em;
+			padding-bottom: 0.5em;
+			border-bottom-left-radius: 8px;
+			border-bottom-right-radius: 9px;
+			color: black;
+		}
+
+		.senicbox h3 {
+			color: black!important;
+		}
+
 		.senic li {
 			margin-bottom: 1em;
+			/*让字和li的点距离更近*/
+			text-indent: -5px;
+		}
+
+		.fa-database, .fa-tree, .fa-mixcloud {
+			margin-right: 0.5em;
 		}
 
 		.designpurpose {
@@ -2400,6 +2424,14 @@
 
 		.designpurpose p {
 			font-size: 0.9em;
+		}
+
+		#four {
+			font-family: Hanyiqihei;
+		}
+
+		.copyrightname {
+			font-family: Hanyiqihei;
 		}
 
 		.playonthecloud {
